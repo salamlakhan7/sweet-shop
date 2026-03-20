@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-pink-50">
+
+  <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <h1 class="text-3xl text-center font-bold my-6">🛒 Your Cart</h1>
+
+  <div id="cart-items" class="p-6"></div>
+
+  <h2 id="total" class="text-xl text-center font-bold"></h2>
+
+  <div class="text-center mt-4">
+    <button onclick="checkout()" class="bg-green-500 text-white px-4 py-2 rounded">
+      Checkout
+    </button>
+  </div>
+
+  <!-- ✅ ORDER MATTERS -->
+  <script src="js/config.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/cart.js"></script>
+
+</body>
+</html>
